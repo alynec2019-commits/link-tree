@@ -1,0 +1,23 @@
+/* (*) - seletor universal/blobal: utilizamos esse seletor quando queremos aplicar uma ou mais propriedades a todos os elementos da página*/
+*{
+    /* o padding - É para controlar o espaçamento dentro do elemento*/
+    /* o margin - Controla o espaçamento fora do elemento*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#ff3d47, #fc9193, #fccc9b, #fffdfd);
+    /*background-repeat: repeat-x;*/
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 125px;
+}
+/* É quando agrupamos elementos diferentes separados por virgula, que receberam a mesma propriedade*/
+h1, p {
+    color: black;
+}
