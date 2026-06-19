@@ -1,23 +1,77 @@
 /* (*) - seletor universal/blobal: utilizamos esse seletor quando queremos aplicar uma ou mais propriedades a todos os elementos da página*/
-*{
+* {
     /* o padding - É para controlar o espaçamento dentro do elemento*/
     /* o margin - Controla o espaçamento fora do elemento*/
     margin: 0;
     padding: 0;
 }
 
+html, body{
+    height: 100%;
+}
+
 body {
     background: linear-gradient(#ff3d47, #fc9193, #fccc9b, #fffdfd);
     /*background-repeat: repeat-x;*/
+
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-img{
+img {
     width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 125px;
 }
+
 /* É quando agrupamos elementos diferentes separados por virgula, que receberam a mesma propriedade*/
-h1, p {
+h1,
+p {
     color: black;
 }
+/* font-size - controla o tamanho do texto */
+/* font-weight - controla o peso da letra */
+/* text - transform - servepara deixar letras maiúsculas, minusculas ou com a letra de cada palavra maiuscula */
+h1 {
+    font-size: 40px;
+    font-weight:400 ;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 7px;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 17px;
+
+}
+
+a {
+    background: #ff6568;
+    text-decoration: none;
+    color: black;
+    border-radius: 100px;
+
+    height: 51px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    font-weight: 400 ;
+
+}
+/* Sempre que eu quiser fazer ezpaços externos é com o padding */
+
