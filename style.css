@@ -6,7 +6,8 @@
     padding: 0;
 }
 
-html, body{
+html,
+body {
     height: 100%;
 }
 
@@ -32,13 +33,15 @@ img {
 h1,
 p {
     color: black;
+    text-align: center;
 }
+
 /* font-size - controla o tamanho do texto */
 /* font-weight - controla o peso da letra */
 /* text - transform - servepara deixar letras maiúsculas, minusculas ou com a letra de cada palavra maiuscula */
 h1 {
     font-size: 40px;
-    font-weight:400 ;
+    font-weight: 400;
     text-transform: capitalize;
     margin-top: 16px;
     margin-bottom: 7px;
@@ -49,9 +52,12 @@ p {
     font-size: 24px;
     font-weight: 200;
     margin-bottom: 35px;
+    max-width: 18ch; 
+    margin-left:auto ;
+    margin-right:auto ;
 }
 
-li{
+li {
     list-style: none;
     margin-bottom: 17px;
 
@@ -70,8 +76,12 @@ a {
     align-items: center;
     font-size: 16px;
     justify-content: center;
-    font-weight: 400 ;
+    font-weight: 400;
 
 }
-/* Sempre que eu quiser fazer ezpaços externos é com o padding */
 
+/* Sempre que eu quiser fazer espaços externos é com o padding */  
+/* hover - é uma pseudo-clase do css. serve para aplicar estilos a um elemento quando usuário passa o mouse sobre ele */
+a:hover{
+    background-color: #FFA1A3;
+}
